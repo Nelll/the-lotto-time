@@ -1,0 +1,64 @@
+@import "reset.css";
+
+body {
+  background-image: url(img/nikke.gif);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px;
+}
+header {
+  margin-bottom: 130px;
+}
+header > h1 {
+  color: white;
+  opacity: 0.5;
+  font-size: 100px;
+  font-weight: bold;
+}
+
+main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.lotto-number {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+}
+
+.lotto-number > span {
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+  text-align: center;
+  vertical-align: center;
+  font-size: 80px;
+  font-weight: bold;
+  color: rgba(22, 115, 223, 0.6);
+}
+
+.lotto-form-box {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lotto-form > input {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  width: 260px;
+  height: 60px;
+  border-radius: 40px;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 30px;
+  font-weight: bold;
+}
